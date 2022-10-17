@@ -259,7 +259,7 @@ function darkTheme(btn, classDark) {
   //console.log($selectors);
 
   let moon = "🌙";
-  let sun = "☀️";
+  let sun = "🔆";
 
   const lightMode = () => {
     $selectors.forEach((el) => el.classList.remove(classDark));

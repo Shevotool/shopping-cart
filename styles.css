@@ -38,6 +38,7 @@ body {
   justify-content: space-between;
   padding: 0 1.5rem;
 }
+
 .nav-icon {
   font-size: 1.5rem;
 }
@@ -58,7 +59,7 @@ body {
 .smart-header {
   margin-top: 10px;
   height: 300px;
-  width: auto;
+  width: 260px;
 }
 
 @media screen and (max-width: 767px) {
@@ -71,19 +72,33 @@ body {
 
 /* ******** DarkThemeButton ******** */
 .dark-theme-btn {
-  position: fixed;
-  bottom: 5vh;
-  left: 1vw;
   border-radius: 100%;
-  width: 3.5rem;
-  height: 3.5rem;
-  font-size: 2rem;
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.5rem;
   font-weight: bold;
   cursor: pointer;
   outline: 0;
   border: 0;
   transition: all 0.3s ease-out;
   background-color: #222;
+}
+
+@media screen and (max-width: 767px) {
+  .dark-theme-btn {
+    bottom: 5vh;
+    left: 1vw;
+    border-radius: 100%;
+    width: 2rem;
+    height: 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    outline: 0;
+    border: 0;
+    transition: all 0.3s ease-out;
+    background-color: #222;
+  }
 }
 
 .dark-mode {
@@ -125,6 +140,7 @@ body {
 }
 .banner-btn {
   padding: 1rem 3rem;
+  border-radius: 6px;
   text-transform: uppercase;
   letter-spacing: var(--mainSpacing);
   font-size: 1rem;
@@ -135,6 +151,28 @@ body {
   cursor: pointer;
 }
 .banner-btn:hover {
+  background: transparent;
+  color: var(--primaryColor);
+}
+
+.all-products {
+  display: block;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem 3rem;
+  border-radius: 6px;
+  text-transform: uppercase;
+  letter-spacing: var(--mainSpacing);
+  font-size: 1rem;
+  background: var(--primaryColor);
+  color: var(--mainBlack);
+  border: 1px solid var(--primaryColor);
+  transition: var(--mainTransition);
+  cursor: pointer;
+}
+
+.all-products:hover {
   background: transparent;
   color: var(--primaryColor);
 }
