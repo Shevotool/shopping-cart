@@ -10,8 +10,6 @@
 This project works with contenful api for saving the producs and local storage.
 ### Screenshot!
 
-[elocuent](https://user-images.githubusercontent.com/89161075/192198883-62de5501-3a6c-4d22-86c8-419423d4099c.jpg)
-
 ## Technologies
 ***
 A list of technologies used within the project:
