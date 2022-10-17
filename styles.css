@@ -41,6 +41,7 @@ body {
 .nav-icon {
   font-size: 1.5rem;
 }
+
 .cart-btn {
   position: relative;
   cursor: pointer;
@@ -54,23 +55,61 @@ body {
   border-radius: 30%;
   color: var(--mainWhite);
 }
+.smart-header {
+  margin-top: 10px;
+  height: 300px;
+  width: auto;
+}
+
+@media screen and (max-width: 767px) {
+  .smart-header {
+    margin-top: 10px;
+    height: 180px;
+    width: auto;
+  }
+}
+
+/* ******** DarkThemeButton ******** */
+.dark-theme-btn {
+  position: fixed;
+  bottom: 5vh;
+  left: 1vw;
+  border-radius: 100%;
+  width: 3.5rem;
+  height: 3.5rem;
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+  outline: 0;
+  border: 0;
+  transition: all 0.3s ease-out;
+  background-color: #222;
+}
+
+.dark-mode {
+  background-color: var(--mainBlack);
+  color: rgb(236, 231, 231);
+}
+
+/* ******** DarkThemeButton ******** */
+
 /* --------------- End of Navbar ---------------- */
 /* --------------- Hero ---------------- */
 .hero {
   min-height: calc(100vh - 60px);
-  background: url("./images/hero-bcg.jpeg") center/cover no-repeat;
+  background: url("./images/smart-hero.jpg") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .banner {
   text-align: center;
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.7);
   display: inline-block;
   padding: 2rem;
 }
 .banner-title {
-  font-size: 3.5rem;
+  font-size: 2.7rem;
   text-transform: uppercase;
   letter-spacing: var(--mainSpacing);
   margin-bottom: 3rem;
@@ -78,10 +117,10 @@ body {
 
 @media screen and (max-width: 767px) {
   .banner-title {
-    font-size: 2.6rem;
+    font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: var(--mainSpacing);
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
 }
 .banner-btn {
