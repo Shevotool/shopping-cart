@@ -155,27 +155,6 @@ body {
   color: var(--primaryColor);
 }
 
-.all-products {
-  display: block;
-  margin-top: 2rem;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 1rem 3rem;
-  border-radius: 6px;
-  text-transform: uppercase;
-  letter-spacing: var(--mainSpacing);
-  font-size: 1rem;
-  background: var(--primaryColor);
-  color: var(--mainBlack);
-  border: 1px solid var(--primaryColor);
-  transition: var(--mainTransition);
-  cursor: pointer;
-}
-
-.all-products:hover {
-  background: transparent;
-  color: var(--primaryColor);
-}
 /* --------------- End of Hero ---------------- */
 /* --------------- Products ---------------- */
 
@@ -345,3 +324,28 @@ body {
 }
 
 /* --------------- End of Cart ---------------- */
+
+/* --------------- About btn ---------------- */
+.about-us-btn {
+  display: block;
+  margin-top: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem 3rem;
+  border-radius: 6px;
+  text-transform: uppercase;
+  letter-spacing: var(--mainSpacing);
+  font-size: 1rem;
+  background: var(--primaryColor);
+  color: var(--mainBlack);
+  border: 1px solid var(--primaryColor);
+  transition: var(--mainTransition);
+  cursor: pointer;
+}
+
+.about-us-btn:hover {
+  background: transparent;
+  color: var(--primaryColor);
+}
+
+/* --------------- End About btn ---------------- */
