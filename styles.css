@@ -26,7 +26,7 @@ body {
   width: 100%;
   display: flex;
   align-items: center;
-  background: rgb(231, 226, 221);
+  background: #222;
   z-index: 1;
 }
 .navbar-center {
@@ -53,6 +53,7 @@ body {
 
 .nav-icon {
   font-size: 1.5rem;
+  color: var(--mainWhite);
 }
 
 @media screen and (max-width: 767px) {
@@ -107,7 +108,7 @@ body {
   border-radius: 100%;
   width: 3rem;
   height: 3rem;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: bold;
   cursor: pointer;
   outline: 0;
@@ -123,7 +124,7 @@ body {
     border-radius: 100%;
     width: 4rem;
     height: 4rem;
-    font-size: 2rem;
+    font-size: 2.6rem;
     font-weight: bold;
     cursor: pointer;
     outline: 0;
@@ -568,7 +569,7 @@ body {
 .footer-link:visited {
   text-decoration: none;
   font-size: 1.6rem;
-  color: #767676;
+  color: rgb(135, 131, 131);
   transition: all 0.3s;
 }
 
